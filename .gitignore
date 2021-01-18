@@ -1,1 +1,7 @@
 /target/
+.project
+.classpath
+./settings/
+.settings/
+.factorypath
+.settings
