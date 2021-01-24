@@ -1,1 +1,1 @@
-# vertx-commons-jdbc-service
+# Vert.x Edge JDBC Service

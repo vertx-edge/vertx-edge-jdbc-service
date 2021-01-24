@@ -5,7 +5,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.vertx.commons</groupId>
+  <groupId>com.vertx.edge</groupId>
   <artifactId>jdbc-service</artifactId>
   <version>1.0.0</version>
 
@@ -15,10 +15,10 @@
   </properties>
 
   <dependencies>
-    <!-- Commons -->
+    <!-- Core -->
     <dependency>
-      <groupId>com.vertx.commons</groupId>
-      <artifactId>vertx-commons</artifactId>
+      <groupId>com.vertx.edge</groupId>
+      <artifactId>core</artifactId>
       <version>1.0.0</version>
     </dependency>
     <!-- JDBC -->
