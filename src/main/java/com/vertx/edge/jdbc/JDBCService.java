@@ -57,7 +57,6 @@ public class JDBCService implements RecordService {
     
     Promise<JsonObject> promise = Promise.promise();
 
-    Secret.clear(config);
     Secret.getUsernameAndPassword(vertx, config).onComplete(res -> {
       if (res.succeeded()) {
         promise.complete(config.mergeIn(res.result()));
